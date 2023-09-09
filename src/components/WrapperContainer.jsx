@@ -70,7 +70,7 @@ const WrapperContainer = () => {
   };
   return (
       <div className="wrapper">
-        <div className="title">Student Registration htmlForm</div>
+        <div className="title">Student Registration Form</div>
         <form action="POST" method="post" onSubmit={handleSubmit}>
           <input type="hidden" name="form-name" value="form 1" />
           <div className="form">
@@ -364,8 +364,8 @@ const WrapperContainer = () => {
               onChange={handleChange}
               style={{
                 display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
+                alignItems: "start",
+                justifyContent: "start",
               }}
             />
             <div className="inputfield btns" id="btn">
